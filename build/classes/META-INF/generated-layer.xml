@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="com-wogatzky-gruntconsole-wndTopComponent.shadow">
+                <!--com.wogatzky.grunttaskrunner.wndTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/com-wogatzky-gruntconsole-wndTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="wndTopComponent.settings">
+                <!--com.wogatzky.grunttaskrunner.wndTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="com.wogatzky.grunttaskrunner.wndTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="navigator">
+                <file name="wndTopComponent.wstcref">
+                    <!--com.wogatzky.grunttaskrunner.wndTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="wndTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="com-wogatzky-gruntconsole-wndTopComponent.instance">
+                <!--com.wogatzky.grunttaskrunner.wndTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="com.wogatzky.grunttaskrunner.wndTopComponent"/>
+                <attr name="preferredID" stringvalue="wndTopComponent"/>
+                <attr
+                    bundlevalue="com.wogatzky.grunttaskrunner.Bundle#CTL_wndAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="com/wogatzky/grunttaskrunner/grunt.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="com_wogatzky_gruntconsole">
+                <file name="wnd" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--com.wogatzky.grunttaskrunner.wndTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//com.wogatzky.gruntconsole//wnd//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="com">
+                <folder name="wogatzky">
+                    <folder name="grunttaskrunner">
+                        <file name="wndTopComponent">
+                            <!--com.wogatzky.grunttaskrunner.wndTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//com_wogatzky_gruntconsole/wnd.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="com_wogatzky_gruntconsole">
+                <file name="wnd.instance">
+                    <!--com.wogatzky.grunttaskrunner.wndTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="com.wogatzky.grunttaskrunner.wndTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="com.wogatzky.grunttaskrunner.wndTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

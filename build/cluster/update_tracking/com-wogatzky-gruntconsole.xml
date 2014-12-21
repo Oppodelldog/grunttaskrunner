@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.wogatzky.gruntconsole">
+    <module_version install_time="1419188470214" last="true" origin="installer" specification_version="1.0">
+        <file crc="3318197046" name="config/Modules/com-wogatzky-gruntconsole.xml"/>
+        <file crc="3501117717" name="modules/com-wogatzky-gruntconsole.jar"/>
+    </module_version>
+</module>
